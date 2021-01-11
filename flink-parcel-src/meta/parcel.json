@@ -1,7 +1,7 @@
 {
 	"schema_version": 1,
 	"name": "%SERVICENAME%",
-	"version": "%VERSION%-%EXTENS_VERSION%",
+	"version": "%VERSION%-%EXTENS_VERSION%-%BUILD_VERSION%",
 	"depends": "CDH (>= %CDH_MIN_FULL%), CDH (<< %CDH_MAX_FULL%)",
 	"setActiveSymlink": true,
 	"replaces": "FLINK",
