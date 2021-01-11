@@ -3,6 +3,9 @@
 bin=`dirname "$0"`
 bin=`cd "$bin"; pwd`
 
+export HADOOP_CONF_DIR="/opt/cloudera/parcels/CDH/lib/hadoop/etc/hadoop"
+export HADOOP_CLASSPATH=`hadoop classpath`
+
 # get Flink config
 . "$bin"/config.sh
 
